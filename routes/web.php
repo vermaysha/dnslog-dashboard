@@ -5,5 +5,5 @@ use Yajra\DataTables\Facades\DataTables;
 
 
 Route::get('/', function () {
-    return view('welcome');
+    return response()->json([], 404);
 });
